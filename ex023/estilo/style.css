@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Raleway:ital,wght@0,400;1,500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --cor0: #f3add8;
+    --cor1: #DB0B8B;
+    --cor2: #ba2269;
+    --cor3: #A80853;
+    --cor4: #5C052D;
+
+    --font-padrao: Arial, Helvetica, Verdana, sans-serif;
+    --font-destaque:  'Raleway', sans-serif;
+    --font-sub:  'Quicksand', sans-serif;
+}
+body {
+    background-color: var(--cor0);
+    font-family: var(--font-padrao);
+}   
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
+
+
+    font-family: var(--font-destaque);
+    min-width: 150px;
+    text-align: center;
+    padding-top: 30px;
+    
+    
+}
+
+header > h1{
+    font-family: var(--font-destaque);
+    margin: auto;
+    font-size: 1.5em;
+    text-shadow: 3px 2px 3px white;
+    padding: 5px;
+}
+header > p {
+    font-family: var(--font-sub);
+    color: white;
+    font-size: 1.0em;
+    max-width: 600px;
+    padding: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 0px;
+    text-shadow:  3px 2px 1px  black;
+}
+
+
+nav {
+    background-color: var(--cor4);
+    padding: 5px;
+    box-shadow: 0px 7px 7px rgba(186, 34, 105, 276);
+
+}
+nav > a{
+   color: rgba(255, 255, 255, 0.704);
+   padding: 5px;
+   text-decoration: none;
+   font-weight: bold;
+   transition-delay: 0,1s;
+}
+nav > a:hover {
+    text-decoration: none;
+    color: var(--cor0);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin:auto;
+    margin-bottom: 30px;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(186, 34, 105, 276);
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main h2 {
+    font-family: var(--font-sub);
+    color: var(--cor0);
+    font-size: 2.0em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    text-indent: 7px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 2px;
+    line-height: 2em;
+    font-size: 1.2em;
+
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 1.0em;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}

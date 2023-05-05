@@ -80,21 +80,17 @@ section.imagem {
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
-
 }
 section#img01 {
     background-image: url('../imagens/background001.jpg');
-    background-position: right center;
-    
+    background-position: right center; 
 }
 
 #img02 {
     background-image: url('/ex0025/imagens/background002.jpg');
     background-color: rgba(0, 0, 0, 0.479);
-
 }
 section#img01 {
     background-image:url(../imagens/background001.jpg);
@@ -106,8 +102,8 @@ section#img01 {
     background-image: url(../imagens/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
-
 }
+
 footer {
     background-color: black;
     color: white;

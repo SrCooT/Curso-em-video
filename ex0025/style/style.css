@@ -86,22 +86,12 @@ section.imagem > p {
 section#img01 {
     background-image: url('../imagens/background001.jpg');
     background-position: right center; 
+    
 }
 
-#img02 {
+section#img02 {
     background-image: url('/ex0025/imagens/background002.jpg');
-    background-color: rgba(0, 0, 0, 0.479);
-}
-section#img01 {
-    background-image:url(../imagens/background001.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#img02 {
-    background-image: url(../imagens/background002.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    background-position: right center; 
 }
 
 footer {
